@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/iv_bh_sp_img"/>
+        <TextView
+            style="@style/Replenish_style"
+            android:visibility="gone"
+            android:text="商品ID:  "/>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textSize="25dp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/tv_goods_id_text"
+            android:background="@drawable/re_textview_bj" />
+    <TextView
+        style="@style/Replenish_style"
+        android:layout_marginLeft="40dp"
+        android:text="货道号:  "/>
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/tv_cargo_lane_text"
+        android:background="@drawable/re_textview_bj" />
+        <TextView
+            style="@style/Replenish_style"
+            android:layout_marginLeft="40dp"
+            android:text="库存:  "/>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/tv_stock_text"
+            android:background="@drawable/re_textview_bj" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textSize="25dp"
+            android:id="@+id/bt_plus_button"
+            android:background="@drawable/rp_plus_bj"
+            android:layout_marginLeft="40dp" />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/bt_reduce_button"
+            android:background="@drawable/rp_reduce_bj" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:id="@+id/tv_testing_electric"
+            android:text="未检测" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:id="@+id/bt_re_testing_button"
+            android:background="@drawable/re_jc_bt_bj"
+            android:textColor="@drawable/tv_determine_color"
+            android:text="检测"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/white"/>
+</LinearLayout>

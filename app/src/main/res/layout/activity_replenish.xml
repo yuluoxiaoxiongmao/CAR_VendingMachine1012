@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rp_layout_bj"
+    android:background="@mipmap/replenis_bj_img"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:orientation="horizontal">
+        <Button
+            style="@style/bt_set_bj_style"
+            android:id="@+id/bt_re_return_button"
+            android:textColor="@drawable/tv_sp_bf_color"
+            android:background="@drawable/bt_bh_bj"
+            android:text="返   回"/>
+
+        <Button
+            style="@style/bt_set_bj_style"
+            android:id="@+id/bt_pv_replenishment"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@drawable/tv_sp_bf_color"
+            android:background="@drawable/bt_bh_bj"
+            android:text="保存补货"/>
+        <Button
+            style="@style/bt_set_bj_style"
+            android:id="@+id/bt_onekey_rep"
+            android:layout_marginRight="20dp"
+            android:textColor="@drawable/tv_sp_bf_color"
+            android:background="@drawable/bt_bh_bj"
+            android:text="一键补货"/>
+        <Button
+            style="@style/bt_set_bj_style"
+            android:id="@+id/bt_onekey_testing"
+            android:textColor="@drawable/tv_sp_bf_color"
+            android:background="@drawable/bt_bh_bj"
+            android:text="一键检测"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="40dp">
+        <Button
+            style="@style/bt_set_bj_style"
+            android:id="@+id/bt_push_plate"
+            android:textColor="@drawable/tv_sp_bf_color"
+            android:background="@drawable/bt_bh_bj"
+            android:text="开    门"/>
+        <Button
+            style="@style/bt_set_bj_style"
+            android:id="@+id/bt_close"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@drawable/tv_sp_bf_color"
+            android:background="@drawable/bt_bh_bj"
+            android:text="关    门"/>
+        <Button
+            style="@style/bt_set_bj_style"
+            android:id="@+id/bt_attemperation"
+            android:textColor="@drawable/tv_sp_bf_color"
+            android:background="@drawable/bt_bh_bj"
+            android:text="加热温度"/>
+        <Button
+            style="@style/bt_set_bj_style"
+            android:id="@+id/bt_coin_return"
+            android:layout_marginLeft="20dp"
+            android:textColor="@drawable/tv_sp_bf_color"
+            android:background="@drawable/bt_bh_bj"
+            android:text="退    币"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/replenish_list_view"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="40dp">
+
+        <Button
+            style="@style/bt_set_bj_style"
+            android:id="@+id/bt_update_data"
+            android:textColor="@drawable/tv_sp_bf_color"
+            android:background="@drawable/bt_bh_bj"
+            android:text="更新数据"/>
+        <Button
+            style="@style/bt_set_bj_style"
+            android:id="@+id/bt_version_update"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@drawable/tv_sp_bf_color"
+            android:background="@drawable/bt_bh_bj"
+            android:text="版本更新"/>
+        <Button
+            style="@style/bt_set_bj_style"
+            android:id="@+id/bt_set_parameter"
+            android:layout_marginRight="20dp"
+            android:textColor="@drawable/tv_sp_bf_color"
+            android:background="@drawable/bt_bh_bj"
+            android:text="升降参数设置"/>
+        <Button
+            style="@style/bt_set_bj_style"
+            android:id="@+id/bt_exit_procedure"
+            android:textColor="@drawable/tv_sp_bf_color"
+            android:background="@drawable/bt_bh_bj"
+            android:text="退出程序"/>
+    </LinearLayout>
+
+</LinearLayout>

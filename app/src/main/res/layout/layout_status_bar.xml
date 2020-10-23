@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/transparent_ban">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="@dimen/top_bar_layout_height"
+            android:scaleType="fitXY"
+            android:layout_height="@dimen/top_bar_layout_height"
+            android:src="@mipmap/hong_xian_log"
+            android:visibility="gone"/>
+        <ImageView
+            android:layout_width="@dimen/top_bar_net_width"
+            android:layout_height="@dimen/top_bar_net_height"
+            android:id="@+id/iv_network_img"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/network_yes"
+            android:visibility="gone"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_wl"
+            android:textSize="@dimen/top_bar_net_text_size"
+            android:textColor="@color/white"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_tips"
+            android:textSize="@dimen/top_bar_mac_id_text_size"
+            android:textColor="@color/white"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <com.example.vendingmachine.ui.customview.TimeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="@dimen/top_bar_net_text_size"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_mac_id_text"
+            android:textSize="@dimen/top_bar_mac_id_text_size"
+            android:textColor="@color/white"/>
+        <ImageView
+            android:layout_width="@dimen/top_bar_net_width"
+            android:layout_height="@dimen/top_bar_net_height"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/temperature_img"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+            android:textSize="@dimen/top_bar_net_text_size"
+            android:text="温度: 未知"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

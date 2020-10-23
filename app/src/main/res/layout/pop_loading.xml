@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearAright"
+        android:layout_width="550dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bt_purchange_bj"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/dialog_img_loading"
+            android:layout_width="@dimen/pop_qr_size"
+            android:layout_height="@dimen/pop_qr_size"
+            android:scaleType="fitXY"
+            android:src="@mipmap/card_tip"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:text="充值查询中请稍等"
+            android:textColor="@color/black"
+            android:textSize="@dimen/set_voice_text_size" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/dialog_img_cancel"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ch_sb_bj"
+        android:visibility="visible" />
+</RelativeLayout>

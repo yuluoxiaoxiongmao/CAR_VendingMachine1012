@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ReadLinearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TitleRelayout"
+        android:layout_margin="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/CardNumberText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:lines="1"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/homeLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Topnumber"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/home_btn_50"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/fy_blue_re_jc_bt_huihong_bj"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="50元"
+            android:textColor="@color/white"
+            android:textSize="@dimen/set_text_size" />
+
+        <TextView
+            android:id="@+id/home_btn_100"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/fy_re_textview_bj"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="100元"
+            android:textColor="@color/flytext"
+            android:textSize="@dimen/set_text_size" />
+
+        <TextView
+            android:id="@+id/home_btn_All"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/fy_re_textview_bj"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="50元"
+            android:textColor="@color/flytext"
+            android:textSize="@dimen/set_text_size" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/TitleRelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@color/Dlyingbackground">
+
+        <ImageView
+            android:id="@+id/FlyFinish"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_margin="28dp"
+            android:src="@drawable/flback" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="羊城通-充值"
+            android:textColor="@color/white"
+            android:textSize="35dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/Topnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TopUpAccountBalance"
+        android:layout_marginLeft="30dp"
+        android:text="请选择充值金额"
+        android:textSize="@dimen/set_text_size" />
+
+    <TextView
+        android:id="@+id/TopUpAccountBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view1"
+        android:layout_margin="30dp"
+        android:text="充值金账户余额:  "
+        android:textColor="@color/Dlyingbackground"
+        android:textSize="@dimen/set_text_size" />
+
+    <TextView
+        android:id="@+id/YangchengTongFeiChong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view2"
+        android:layout_margin="30dp"
+        android:background="@drawable/re_jc_bt_oranger_bj"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="羊城通飞充"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/homeLinearLayout"
+        android:background="@color/shen_gray" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/ReadLinearlayout"
+        android:background="@color/shen_gray" />
+</RelativeLayout>

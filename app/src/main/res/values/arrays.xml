@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="machine_type">
+        <item>升降弹簧(带检测)</item>
+        <item>升降履带(带检测) </item>
+        <item>升降弹簧(不带检测)</item>
+        <item>升降履带(不带检测) </item>
+        <item>不带升降履带</item>
+        <item>不带升降弹簧</item>
+    </string-array>
+</resources>

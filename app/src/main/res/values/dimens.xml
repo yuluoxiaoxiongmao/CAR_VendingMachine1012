@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_tips_size">20sp</dimen>
+    <dimen name="top_bar_net_width">30dp</dimen>
+    <dimen name="top_bar_net_height">30dp</dimen>
+    <dimen name="top_bar_net_text_size">12dp</dimen>
+    <dimen name="top_bar_mac_id_text_size">12dp</dimen>
+    <dimen name="top_bar_layout_height">50dp</dimen>
+
+    <dimen name="toast_img_width">50dp</dimen>
+    <dimen name="toast_img_height">50dp</dimen>
+    <dimen name="toast_text_size">30dp</dimen>
+    <dimen name="toast_layout_padding">20dp</dimen>
+
+    <dimen name="counter_text_width">460dp</dimen>
+    <dimen name="counter_text_height">80dp</dimen>
+    <dimen name="counter_text_width2">100dp</dimen>
+    <dimen name="counter_text_height2">100dp</dimen>
+    <dimen name="counter_button_margin">10dp</dimen>
+    <dimen name="counter_text_size">35dp</dimen>
+
+    <dimen name="goods_layout_width">260dp</dimen>
+    <dimen name="goods_layout_height">220dp</dimen>
+    <dimen name="goods_text_hd__width">70dp</dimen>
+    <dimen name="goods_text_hd_height">35dp</dimen>
+    <dimen name="goods_text_hd_size">20dp</dimen>
+    <dimen name="goods_img_width">120dp</dimen>
+    <dimen name="goods_text_ms_size">18dp</dimen>
+    <dimen name="goods_pay_bottom">30dp</dimen>
+    <dimen name="top_points_height">20dp</dimen>
+
+    <dimen name="pay_js_width">160dp</dimen>
+    <dimen name="pay_js_height">70dp</dimen>
+    <dimen name="pay_js_left">100dp</dimen>
+    <dimen name="pay_js_size">35dp</dimen>
+    <dimen name="pay_img_code_width">250dp</dimen>
+    <dimen name="pay_cb_width">120dp</dimen>
+    <dimen name="pay_sp_margin_s">80dp</dimen>
+    <dimen name="pay_sp_margin_x">200dp</dimen>
+    <dimen name="pay_sp_img_margin_s">40dp</dimen>
+    <dimen name="pay_button_width">250dp</dimen>
+    <dimen name="pay_button_height">100dp</dimen>
+
+    <!--SlidingMenu-->
+    <dimen name="menu_width">300dp</dimen>
+    <dimen name="set_text_size">35dp</dimen>
+    <dimen name="set_voice_text_size">25dp</dimen>
+
+    <dimen name="cz_text_size">25sp</dimen>
+    <dimen name="cz_text_size_20">30sp</dimen>
+
+    <dimen name="cz_ll_size_220">220dp</dimen>
+
+    <dimen name="pop_icon_size">120dp</dimen>
+    <dimen name="pop_qr_size">200dp</dimen>
+    <dimen name="pop_icon_way">120dp</dimen>
+
+    <dimen name="dp_15">15dp</dimen>
+
+</resources>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent_ban"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/bt_buy_return"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:background="@drawable/bj_fan_hui_no"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/img_buy_return"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:src="@drawable/icon_close"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="30dp"
+                android:paddingBottom="30dp">
+
+                <com.example.vendingmachine.utils.ImageGifView
+                    android:id="@+id/iv_pay_goods_img"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:background="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_pay_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11111"
+                        android:textColor="@color/black"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/tv_pay_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:text="111"
+                        android:textColor="@color/shen_gray"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/tv_pay_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="111"
+                        android:textColor="@color/red_e0"
+                        android:textSize="30sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_pay_way_tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="请选择支付方式"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:background="@color/yellow_fa"
+                android:gravity="center"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/yellow_fa"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="20dp">
+
+                <CheckBox
+                    android:id="@+id/cb_wechat"
+                    android:layout_width="@dimen/pop_icon_size"
+                    android:layout_height="@dimen/pop_icon_size"
+                    android:background="@drawable/bt_wechat_bj"
+                    android:button="@null" />
+
+                <CheckBox
+                    android:id="@+id/cb_alipay"
+                    android:layout_width="@dimen/pop_icon_size"
+                    android:layout_height="@dimen/pop_icon_size"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/bt_alipay_bj"
+                    android:button="@null" />
+
+                <CheckBox
+                    android:id="@+id/cb_yct"
+                    android:layout_width="@dimen/pop_icon_size"
+                    android:layout_height="@dimen/pop_icon_size"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/bt_yct_bj"
+                    android:button="@null"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow_fa"
+                android:orientation="vertical"
+                android:paddingBottom="30dp">
+
+                <ImageView
+                    android:id="@+id/iv_pay_code"
+                    android:layout_width="@dimen/pop_qr_size"
+                    android:layout_height="@dimen/pop_qr_size"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/mianfei_erwm" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="请在倒计时结束之前完成支付"
+                    android:textColor="@color/yellow_xian"
+                    android:textSize="25sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_buy_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+</LinearLayout>

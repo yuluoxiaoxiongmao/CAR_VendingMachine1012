@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Dialog透明样式 -->
+    <style name="my_dialog_style">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+
+    <style name="bottom_dialog">
+        <item name="android:windowBackground">@color/dialogwhite</item>
+        <item name="android:backgroundDimAmount">0.1</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="bottom_dialog_alph">
+        <item name="android:windowBackground">@color/dialogwhite_alph0</item>
+        <item name="android:backgroundDimAmount">0.1</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+    <!--登陆输入框样式-->
+    <style name="login_editText_style" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+    </style>
+
+    <!--activity 透明主题-->
+    <style name="AppBlackTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- 计算器样式 -->
+    <style name="bt_Computer" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">@dimen/counter_text_width2</item>
+        <item name="android:layout_height">@dimen/counter_text_height2</item>
+        <item name="android:textSize">@dimen/counter_text_size</item>
+        <item name="android:background">@drawable/bt_jsj_bj</item>
+    </style>
+
+    <!-- PopupWindow窗口淡入淡出动画 -->
+    <style name="AnimationFade">
+        <item name="android:windowEnterAnimation">@anim/enlarge_anim</item>
+        <item name="android:windowExitAnimation">@anim/narrow_anim</item>
+    </style>
+
+    <style name="AnimationShan">
+        <item name="android:windowEnterAnimation">@anim/to_down_anim</item>
+        <item name="android:windowExitAnimation">@anim/to_upward_anim</item>
+    </style>
+
+    <style name="AnimationToast">
+        <item name="android:windowEnterAnimation">@anim/to_left_anim</item>
+        <item name="android:windowExitAnimation">@anim/narrow_anim</item>
+    </style>
+
+    <!-- 设置页按钮样式 -->
+    <style name="bt_set_bj_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!--补货页按钮样式-->
+    <style name="Replenish_style">
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+</resources>

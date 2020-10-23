@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/log_01"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/log_02"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/log_03"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/log_04"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/log_05"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/log_06"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/log_07"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/log_08"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/log_09"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/log_10"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/log_11"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/log_12"
+        android:duration="50"/>
+
+</animation-list>

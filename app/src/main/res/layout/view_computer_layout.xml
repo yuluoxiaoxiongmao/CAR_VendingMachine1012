@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="@dimen/counter_text_width"
+        android:layout_height="@dimen/counter_text_height"
+        android:id="@+id/tv_cargo_lane_id"
+        android:gravity="center"
+        android:textSize="@dimen/toast_text_size"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/tv_isplay_bj"
+        android:textColorHint="@color/shen_gray"
+        android:hint="请输入货道号!"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            style="@style/bt_Computer"
+            android:id="@+id/bt_1"
+            android:layout_margin="@dimen/counter_button_margin"
+            android:text="1" />
+        <Button
+            style="@style/bt_Computer"
+            android:layout_margin="@dimen/counter_button_margin"
+            android:layout_toRightOf="@id/bt_1"
+            android:id="@+id/bt_2"
+            android:text="2" />
+        <Button
+            style="@style/bt_Computer"
+            android:layout_margin="@dimen/counter_button_margin"
+            android:layout_toRightOf="@id/bt_2"
+            android:id="@+id/bt_3"
+            android:text="3" />
+        <Button
+            style="@style/bt_Computer"
+            android:layout_margin="@dimen/counter_button_margin"
+            android:layout_toRightOf="@id/bt_3"
+            android:id="@+id/bt_qc"
+            android:text="←" />
+        <Button
+            style="@style/bt_Computer"
+            android:id="@+id/bt_4"
+            android:layout_margin="@dimen/counter_button_margin"
+            android:layout_below="@id/bt_1"
+            android:text="4" />
+        <Button
+            style="@style/bt_Computer"
+            android:id="@+id/bt_5"
+            android:layout_margin="@dimen/counter_button_margin"
+            android:layout_below="@id/bt_2"
+            android:layout_toRightOf="@id/bt_4"
+            android:text="5" />
+        <Button
+            style="@style/bt_Computer"
+            android:layout_margin="@dimen/counter_button_margin"
+            android:id="@+id/bt_6"
+            android:layout_below="@id/bt_3"
+            android:layout_toRightOf="@id/bt_5"
+            android:text="6" />
+        <Button
+            style="@style/bt_Computer"
+            android:layout_margin="@dimen/counter_button_margin"
+            android:id="@+id/bt_0"
+            android:layout_below="@id/bt_qc"
+            android:layout_toRightOf="@id/bt_6"
+            android:text="0" />
+        <Button
+            style="@style/bt_Computer"
+            android:id="@+id/bt_7"
+            android:layout_margin="@dimen/counter_button_margin"
+            android:layout_below="@id/bt_4"
+            android:text="7" />
+        <Button
+            style="@style/bt_Computer"
+            android:id="@+id/bt_8"
+            android:layout_margin="@dimen/counter_button_margin"
+            android:layout_below="@id/bt_5"
+            android:layout_toRightOf="@id/bt_7"
+            android:text="8" />
+        <Button
+            style="@style/bt_Computer"
+            android:layout_margin="@dimen/counter_button_margin"
+            android:id="@+id/bt_9"
+            android:layout_below="@id/bt_6"
+            android:layout_toRightOf="@id/bt_8"
+            android:text="9" />
+        <Button
+            style="@style/bt_Computer"
+            android:layout_margin="@dimen/counter_button_margin"
+            android:id="@+id/bt_jsj_confirm"
+            android:layout_below="@id/bt_0"
+            android:layout_toRightOf="@id/bt_6"
+            android:text="确认" />
+    </RelativeLayout>
+</LinearLayout>
